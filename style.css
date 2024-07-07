@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    /* margin-top: 7px; */
+    padding: 0;
+    background:#fff;
+}
+
+/* for left side */
+.left{
+    width: 210px;
+    background: #ad9f9f4e;
+    height: 480px;
+    margin-left: 0px;
+    box-shadow: 0 0 30px 0 #6f6f6f4e;
+}
+.left img{
+    height: 120px;
+    margin-top: 20px;
+    margin-left: 42px;
+    border-radius: 50%;
+    transform: scale(.88);
+    cursor: pointer;
+}
+.left img:hover{
+    transform: scale(1);
+    transition-duration: 1s;
+}
+.left h1{
+    font-size: 22px;
+    margin-top: -1px;
+    color: blue;
+    margin-left: 17px;
+    cursor: pointer;
+}
+.left h1:hover{
+    /* transform-style: flat; */
+    transform: scaleX(1.07);
+    transition-duration: 0.9s;
+}
+.left a{
+    margin-top: 10px;
+    display: grid;
+    row-gap: 16px;
+    padding: 3px;
+    margin-left: 0px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+}
+.left a:hover{
+    color: blue;
+    font-weight: bolder;
+}
+.left .link{
+    margin-top: 40px;
+}
+.foot{
+    margin-top: 50px;
+    height: 93px;
+    width: 210px;
+    background: #9d9595;
+    
+}
+.foot p{
+    margin-left: 8px;
+    
+    
+}
+.foot p a{
+margin-top: -9px;
+grid-row: 6px;
+}
+
+/* for right side */
+
+.right{
+    /* height: 480px; */
+    margin-left: 240px;
+    margin-top: -510px;
+}
+.right h1{
+    margin-top: 200px;
+    row-gap: 10px;
+    margin-left: 30px;
+    padding: 3px;
+}
+.right img{
+    height: 280px;
+    margin-left: 290px;
+    margin-top: -170px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.right img:hover{
+    /* transform: rotateY(350deg); */
+    transform: scale(1.07);
+  transition-duration: 1.5s;
+}
+.right p{
+    /* height: 30px; */
+    width: 250px;
+    margin-top: -100px;
+    margin-left: 30px;
+}
+.btn {
+    height: 30px;
+    width: 140px;
+    background: #0aac91;
+    /* text-align: center; */
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.btn:hover{
+    transform: scaleX(1.1);
+    transition-duration: 1.3s;
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
